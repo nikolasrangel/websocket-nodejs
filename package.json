@@ -1,0 +1,18 @@
+{
+  "name": "websocket-nodejs",
+  "version": "1.0.0",
+  "description": "Websocket + Node.js + ws library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikolas Rangel",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/ws": "^3.2.1",
+    "typescript": "^2.6.2"
+  }
+}
