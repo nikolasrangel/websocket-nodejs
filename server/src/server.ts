@@ -24,7 +24,7 @@ wss.on('connection', (ws: WebSocket) => {
     /* Connection is OK then add a event */
     ws.on('message', (message: string) => {
 
-        /* Log the received message and send it back to the client */
+        /* Log the received message */
         console.log(`Message received from client: ${message}`);
 
         /* Send the message back to the client */

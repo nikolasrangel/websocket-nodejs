@@ -1,11 +1,12 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const WebSocket = require("ws");
 const port = 3746;
 const http_ = require('http');
 const server = http_.createServer(function (request, response) {
 });
 server.listen(port, () => {
-    console.log(`Server started at port ${server.address().port}`);
+    console.log(`Server started at port ${server.address().port}.`);
 });
 const wss = new WebSocket.Server({ server });
 wss.on('connection', (ws) => {
